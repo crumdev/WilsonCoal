@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Welcome - Wilson Coal &amp; Supply</title>
+
+<link rel="Shortcut icon" href="file:///C%7C/wamp/www/_images/favicon/favicon.ico">
+<link href="_css/company_page_style.css" rel="stylesheet" type="text/css">
+<link href="_css/navigation.css" rel="stylesheet" type="text/css">
+<link href="_css/typography.css" rel="stylesheet" type="text/css"><!-- Designed and Coded by Zack Wilson--><!-- SEO Optomization Words -->
+<style type="text/css">
+	.overlay {
+		display:none;
+		z-index: 300;
+		position:absolute;
+		width:500px;
+		min-height:150px;
+		background-color:white;
+		text-align: center;
+		padding:20px;
+	}
+	.overlayBg {
+		display: none;
+		background-color: #000;
+		filter: alpha(opacity=60); /* internet explorer */
+		-khtml-opacity: 0.6;      /* khtml, old safari */
+		-moz-opacity: 0.6;       /* mozilla, netscape */
+		opacity: 0.6;           /* fx, safari, opera */	
+		position: absolute;
+		z-index: 200;
+		top:0;
+		left: 0;
+		width: 100%;
+		height:100%;
+	}
+</style>
+
+
+
+<META name="KEYWORD" content="Where to buy stoves, purchase coal stoves, purchase wood stoves, New Jersey Stoves, Sussex stoves,Heating with coal Sussex County NJ, Black Anthracite coal Morris County NJ, Clean coal is clean Warren County NJ, Coal for Stoves Morristown NJ, Black anthracite Passaic County NJ, Coal for sale Milford PA, Fuel coal Newton NJ, Coal Delivery Sparta NJ, Coal Suppliers Edison NJ, Coal where to buy West Milford NJ, Black anthracite coal, stove, buck, nut, rice, " sussex,="" nj="" area="" ,="" danny="" boilers,="" furnaces,="" wilson="" stoves,="" heats="" best,="" anthracite="" bagged="" bergen="" morris="" passaic="" somerset="" sussex="" county="" buy="" clean="" deliveries,="" deliverys,="" delivery="" sparta="" milford="" pa,="" for="" sale="" nj,="" stoker="" coal-trol,="" handfed,="" reading="" hitzer="" grate,="" triburner,="" keystoker="" no="" non="" electric,="" zero="" electricity,="" blower,="" flue,="" fire,="" starting="" a="" sizes,="" rice="" buck="" pea="" nut="" peanut="" chestnut="" stove="" coal,="" bags,="" pallet,="" bulk,="" hilift,="" hi-lift="" truck,="" conveyor,="" chute,="" handfire,="" handfired,="" radiant="" handfed="" stove,="" vent,="" direct="" vented,="" coaltrol="" coal-trol="" thermostat,="" rheostat,="" thermostatically="" controlled,="" stoker,="" feed,="" automatic="" feeder,="" shaker="" grates,="" fireplace="" fire="" hand="" fired="" insert,="" furnace,="" boiler,="" steamer,="" koker,="" hopper,="" scuttle,="" bin,="" coal="" hood=""></head>
+<body>
+<!--
+** SALE ALERT
+**
+** Uncomment the Div with class overlay to enable the popup message on the wilsoncoal.com home page.
+** Fill out the information with the appropriate details and it will automatically appear when you visit the page
+** and disappear when you click away or click the close button.
+**
+**
+ -->
+<!--
+<div class="overlay">
+	<h3>Summer Stove Sale!</h3>
+	<p><strong>July 1st-August 17th</strong></br></br>
+	Open weekdays and <em>Special Saturday hours</em> on July 13th and 27th, and August 3rd and 17th (9 a.m.- 1 p.m.)
+	Pre-purchase your coal by August 17th and save per ton!
+	<a href="http://wilsoncoal.com/contact.php">Contact our office for details!</a></p>
+	<br/>
+	<button>Close</button>
+</div>
+<div class="overlayBg">&nbsp;</div>
+--><!--End of Popup Announcement-->
+<div id="banner"><a href="index.html"><img src="_images/banner/banner.jpg"></a></div>
+<div class="nav cf">
+  <ul>
+    <li><a href="coal.html">Coal</a></li>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="delivery.html">Delivery</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    <li><a href="stoves.html">Stoves</a></li>
+    <li><a href="coal_safety.html">Coal Safety</a></li>
+    <li><a href="faqs.html">FAQ's</a></li>
+  </ul>
+</div>
+<div id="main_content" class="home_content">
+    <div class="trans_background">
+    <h3>Welcome to Wilson Coal &amp; Supply!</h3>
+    <p>Call (973) 729-5555 or email <a href="mailto:info@wilsoncoal.com">info@wilsoncoal.com</a> now for the best prices on anthracite coal. We are NJ's first choice for coal delivery or pickup. </p>
+    <p>Serving Sussex, Morris, Passaic, Warren, Hunterdon, and surrounding NJ counties as well as PA and NY. </p></div>
+</div>
+<div id="footer">
+  <p>(973) 729-5555 or <a href="mailto:info@wilsoncoal.com">info@wilsoncoal.com</a><br>
+    201 Houses Corner Road, Sparta, NJ. <br>
+    M-F 7:30am - 4:30pm</p>
+  <span class="facebook_logo"><a href="https://www.facebook.com/pages/Wilson-Coal-and-Supply-LLC/287851644660690?fref=ts" target="_new"><img src="_images/social_icons/128/facebook_001.jpg"></a></span> <span class="google_logo"><a href="https://plus.google.com/109242329888080107256" target="_new"><img src="_images/social_icons/128/Google_Plus_001.jpg" alt="Google +"></a></span> 
+</div>
+  
+  <script type="text/javascript" src="./_scripts/jquery.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		function centerToPage(ele) {
+			$(ele).fadeIn('slow');
+			var docWidth = $(window).width();
+			var docHeight = $(window).height();
+			var topPost = (docHeight/3);
+			var sidePost = (docWidth/2) - ($(ele).width()/2);
+			var styles = {
+				top: topPost,
+				left: sidePost
+			};
+			$(ele).css(styles);
+		}
+		$('.overlayBg').fadeIn('slow');
+		centerToPage('.overlay');
+		$(document).click(function(){
+			$('.overlay').fadeOut("slow");
+			$('.overlayBg').fadeOut("slow");		
+		});
+		
+		});
+  </script>
+</body></html>
