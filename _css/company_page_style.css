@@ -23,6 +23,9 @@ div#stove_icons img {
 	padding:0 12px 0 12px;
 		
 }
+address {
+    padding: 12px 24px 0px;
+}
 
 div#stove_icons {
 	width: 725px;
@@ -130,8 +133,9 @@ div.trans_background {
 	width:386px;	
 }
 .delivery_content {
-	background-image:url(../_images/page_images/delivery_images/background_delivery.jpg);	
-	background-size:auto;
+	background-image:url(../_images/page_images/delivery_images/truckAndForklift.png);
+    background-repeat:no-repeat;
+    background-size:auto;
 	height:715px;
 	color:white;
 }
