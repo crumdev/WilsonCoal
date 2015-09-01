@@ -31,7 +31,7 @@
     <div id="form" class="cf">
 	    <form id="contact-form" action="/" method="POST">
 	        <h3>Hours are 7:30 AM to 4:30 PM, Monday through Friday.<br/>
-			Saturdays are by prior appointment only.<br/>
+			Open Saturdays Aug-Mar 9am-1pm<br/>
 			No Sunday service.</h3>
 	        <!--Basic contact info questions-->
 	        <span id="contact-info">
