@@ -49,6 +49,7 @@
                         <option value="buy-coal">I want to order coal.</option>
 	                    <option value="question">I have a question about my product.</option>
 	                    <option value="question">I have a question about the Summer Sale.</option>
+						<option value="newsletter">I’d like to be added to the mailing list for sales notifications!</option>
 	                    <option value="other">Other</option>
 	                </select>
 	            </p><br/>
@@ -127,7 +128,7 @@
 			}
 		});
 			
-		/* Disable submit until all require fields are filled.
+		/* Disable submit until all required fields are filled.
 		** 
 		** Once any field loses focus it checks to see if the required fields are filled,
 		** it will highlight the empty ones by adding a prestyled warning class to the 
