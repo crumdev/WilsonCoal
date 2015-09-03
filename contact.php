@@ -49,7 +49,7 @@
                         <option value="buy-coal">I want to order coal.</option>
 	                    <option value="question">I have a question about my product.</option>
 	                    <option value="question">I have a question about the Summer Sale.</option>
-						<option value="newsletter">I’d like to be added to the mailing list for sales notifications!</option>
+						<option value="newsletter">I&#39d like to be added to the mailing list for sales notifications!</option>
 	                    <option value="other">Other</option>
 	                </select>
 	            </p><br/>
